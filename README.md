@@ -1,4 +1,10 @@
 # HNews
 Hacker news client written in Swift
 
-Readme
+## Screenshots
+
+![Main page](https://raw.githubusercontent.com/abatjarg/HNews/master/HNews/main.png)
+
+## To do
+
+
