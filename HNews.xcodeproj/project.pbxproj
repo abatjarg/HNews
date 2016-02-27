@@ -8,20 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		685FC52A1C7BDDCF00F562C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5291C7BDDCF00F562C0 /* AppDelegate.swift */; };
-		685FC52C1C7BDDCF00F562C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC52B1C7BDDCF00F562C0 /* ViewController.swift */; };
 		685FC52F1C7BDDCF00F562C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685FC52D1C7BDDCF00F562C0 /* Main.storyboard */; };
 		685FC5311C7BDDCF00F562C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685FC5301C7BDDCF00F562C0 /* Assets.xcassets */; };
 		685FC5341C7BDDCF00F562C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685FC5321C7BDDCF00F562C0 /* LaunchScreen.storyboard */; };
+		685FC53D1C7BDE2100F562C0 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC53C1C7BDE2100F562C0 /* CAPSPageMenu.swift */; };
+		685FC5421C7BDE8600F562C0 /* HNMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5411C7BDE8600F562C0 /* HNMainViewController.swift */; };
+		685FC5441C7BDEDA00F562C0 /* HNTopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5431C7BDEDA00F562C0 /* HNTopTableViewController.swift */; };
+		685FC5461C7BDF2E00F562C0 /* HNTopTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685FC5451C7BDF2E00F562C0 /* HNTopTableView.xib */; };
+		685FC54A1C7BE05900F562C0 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5491C7BE05900F562C0 /* NewsTableViewCell.swift */; };
+		685FC54C1C7BE07500F562C0 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685FC54B1C7BE07500F562C0 /* NewsTableViewCell.xib */; };
+		685FC54E1C7D250F00F562C0 /* HNNewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC54D1C7D250F00F562C0 /* HNNewTableViewController.swift */; };
+		685FC5501C7D252100F562C0 /* HNNewTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685FC54F1C7D252100F562C0 /* HNNewTableView.xib */; };
+		685FC5521C7D346400F562C0 /* HNAskTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685FC5511C7D346400F562C0 /* HNAskTableView.xib */; };
+		685FC5541C7D347E00F562C0 /* HNAskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5531C7D347E00F562C0 /* HNAskTableViewController.swift */; };
+		685FC5561C7D34A700F562C0 /* HNShowTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5551C7D34A700F562C0 /* HNShowTableViewController.swift */; };
+		685FC5581C7D34B500F562C0 /* HNJobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5571C7D34B500F562C0 /* HNJobTableViewController.swift */; };
+		685FC55A1C7D34D200F562C0 /* HNShowTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685FC5591C7D34D200F562C0 /* HNShowTableView.xib */; };
+		685FC55C1C7D34EB00F562C0 /* HNJobTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685FC55B1C7D34EB00F562C0 /* HNJobTableView.xib */; };
+		685FC5601C7D49E600F562C0 /* HNSavedTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685FC55F1C7D49E600F562C0 /* HNSavedTableView.xib */; };
+		685FC5631C7E901F00F562C0 /* HNData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5621C7E901F00F562C0 /* HNData.swift */; };
+		885E1712F0B15486793512F8 /* Pods_HNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80776AD98A53656BE818E820 /* Pods_HNews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		685FC5261C7BDDCF00F562C0 /* HNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		685FC5291C7BDDCF00F562C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		685FC52B1C7BDDCF00F562C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		685FC52E1C7BDDCF00F562C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		685FC5301C7BDDCF00F562C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		685FC5331C7BDDCF00F562C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		685FC5351C7BDDCF00F562C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685FC53C1C7BDE2100F562C0 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		685FC5411C7BDE8600F562C0 /* HNMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNMainViewController.swift; path = ../HNMainViewController.swift; sourceTree = "<group>"; };
+		685FC5431C7BDEDA00F562C0 /* HNTopTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNTopTableViewController.swift; sourceTree = "<group>"; };
+		685FC5451C7BDF2E00F562C0 /* HNTopTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNTopTableView.xib; sourceTree = "<group>"; };
+		685FC5491C7BE05900F562C0 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		685FC54B1C7BE07500F562C0 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewsTableViewCell.xib; path = ../NewsTableViewCell.xib; sourceTree = "<group>"; };
+		685FC54D1C7D250F00F562C0 /* HNNewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNNewTableViewController.swift; sourceTree = "<group>"; };
+		685FC54F1C7D252100F562C0 /* HNNewTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNNewTableView.xib; sourceTree = "<group>"; };
+		685FC5511C7D346400F562C0 /* HNAskTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNAskTableView.xib; sourceTree = "<group>"; };
+		685FC5531C7D347E00F562C0 /* HNAskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNAskTableViewController.swift; sourceTree = "<group>"; };
+		685FC5551C7D34A700F562C0 /* HNShowTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNShowTableViewController.swift; sourceTree = "<group>"; };
+		685FC5571C7D34B500F562C0 /* HNJobTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNJobTableViewController.swift; path = ../HNJobTableViewController.swift; sourceTree = "<group>"; };
+		685FC5591C7D34D200F562C0 /* HNShowTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNShowTableView.xib; sourceTree = "<group>"; };
+		685FC55B1C7D34EB00F562C0 /* HNJobTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNJobTableView.xib; sourceTree = "<group>"; };
+		685FC55F1C7D49E600F562C0 /* HNSavedTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNSavedTableView.xib; sourceTree = "<group>"; };
+		685FC5621C7E901F00F562C0 /* HNData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNData.swift; sourceTree = "<group>"; };
+		80776AD98A53656BE818E820 /* Pods_HNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4A8104BCAB3F77FA239DE9 /* Pods-HNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HNews/Pods-HNews.debug.xcconfig"; sourceTree = "<group>"; };
+		BEDBFD0AB7858E96DA86B68E /* Pods-HNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-HNews/Pods-HNews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885E1712F0B15486793512F8 /* Pods_HNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14153F5CAABFC564843932D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80776AD98A53656BE818E820 /* Pods_HNews.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C7BB479ADD5B8AAFCBE5525 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D4A8104BCAB3F77FA239DE9 /* Pods-HNews.debug.xcconfig */,
+				BEDBFD0AB7858E96DA86B68E /* Pods-HNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		685FC51D1C7BDDCF00F562C0 = {
 			isa = PBXGroup;
 			children = (
 				685FC5281C7BDDCF00F562C0 /* HNews */,
 				685FC5271C7BDDCF00F562C0 /* Products */,
+				2C7BB479ADD5B8AAFCBE5525 /* Pods */,
+				14153F5CAABFC564843932D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +108,69 @@
 		685FC5281C7BDDCF00F562C0 /* HNews */ = {
 			isa = PBXGroup;
 			children = (
+				685FC5611C7E8FE100F562C0 /* Model */,
+				685FC5401C7BDE4900F562C0 /* Cells */,
+				685FC53F1C7BDE3F00F562C0 /* ViewControllers */,
+				685FC53E1C7BDE3000F562C0 /* Views */,
+				685FC53B1C7BDE0200F562C0 /* CAPSPageMenu */,
 				685FC5291C7BDDCF00F562C0 /* AppDelegate.swift */,
-				685FC52B1C7BDDCF00F562C0 /* ViewController.swift */,
 				685FC52D1C7BDDCF00F562C0 /* Main.storyboard */,
 				685FC5301C7BDDCF00F562C0 /* Assets.xcassets */,
 				685FC5321C7BDDCF00F562C0 /* LaunchScreen.storyboard */,
 				685FC5351C7BDDCF00F562C0 /* Info.plist */,
 			);
 			path = HNews;
+			sourceTree = "<group>";
+		};
+		685FC53B1C7BDE0200F562C0 /* CAPSPageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				685FC53C1C7BDE2100F562C0 /* CAPSPageMenu.swift */,
+			);
+			name = CAPSPageMenu;
+			sourceTree = "<group>";
+		};
+		685FC53E1C7BDE3000F562C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				685FC5451C7BDF2E00F562C0 /* HNTopTableView.xib */,
+				685FC54F1C7D252100F562C0 /* HNNewTableView.xib */,
+				685FC5511C7D346400F562C0 /* HNAskTableView.xib */,
+				685FC5591C7D34D200F562C0 /* HNShowTableView.xib */,
+				685FC55B1C7D34EB00F562C0 /* HNJobTableView.xib */,
+				685FC55F1C7D49E600F562C0 /* HNSavedTableView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		685FC53F1C7BDE3F00F562C0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				685FC5411C7BDE8600F562C0 /* HNMainViewController.swift */,
+				685FC5431C7BDEDA00F562C0 /* HNTopTableViewController.swift */,
+				685FC54D1C7D250F00F562C0 /* HNNewTableViewController.swift */,
+				685FC5531C7D347E00F562C0 /* HNAskTableViewController.swift */,
+				685FC5551C7D34A700F562C0 /* HNShowTableViewController.swift */,
+				685FC5571C7D34B500F562C0 /* HNJobTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		685FC5401C7BDE4900F562C0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				685FC5491C7BE05900F562C0 /* NewsTableViewCell.swift */,
+				685FC54B1C7BE07500F562C0 /* NewsTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		685FC5611C7E8FE100F562C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				685FC5621C7E901F00F562C0 /* HNData.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 685FC5381C7BDDCF00F562C0 /* Build configuration list for PBXNativeTarget "HNews" */;
 			buildPhases = (
+				1DD5159B68AC12987CFF6FBC /* Check Pods Manifest.lock */,
 				685FC5221C7BDDCF00F562C0 /* Sources */,
 				685FC5231C7BDDCF00F562C0 /* Frameworks */,
 				685FC5241C7BDDCF00F562C0 /* Resources */,
+				0ED897E1539102ED7514C74C /* Embed Pods Frameworks */,
+				1B29C17D13FB56D085BE5415 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +235,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				685FC5501C7D252100F562C0 /* HNNewTableView.xib in Resources */,
+				685FC5601C7D49E600F562C0 /* HNSavedTableView.xib in Resources */,
 				685FC5341C7BDDCF00F562C0 /* LaunchScreen.storyboard in Resources */,
 				685FC5311C7BDDCF00F562C0 /* Assets.xcassets in Resources */,
 				685FC52F1C7BDDCF00F562C0 /* Main.storyboard in Resources */,
+				685FC5461C7BDF2E00F562C0 /* HNTopTableView.xib in Resources */,
+				685FC5521C7D346400F562C0 /* HNAskTableView.xib in Resources */,
+				685FC55A1C7D34D200F562C0 /* HNShowTableView.xib in Resources */,
+				685FC54C1C7BE07500F562C0 /* NewsTableViewCell.xib in Resources */,
+				685FC55C1C7D34EB00F562C0 /* HNJobTableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ED897E1539102ED7514C74C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HNews/Pods-HNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B29C17D13FB56D085BE5415 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HNews/Pods-HNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DD5159B68AC12987CFF6FBC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		685FC5221C7BDDCF00F562C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				685FC52C1C7BDDCF00F562C0 /* ViewController.swift in Sources */,
+				685FC5561C7D34A700F562C0 /* HNShowTableViewController.swift in Sources */,
+				685FC5421C7BDE8600F562C0 /* HNMainViewController.swift in Sources */,
+				685FC5541C7D347E00F562C0 /* HNAskTableViewController.swift in Sources */,
+				685FC5441C7BDEDA00F562C0 /* HNTopTableViewController.swift in Sources */,
+				685FC54A1C7BE05900F562C0 /* NewsTableViewCell.swift in Sources */,
+				685FC5631C7E901F00F562C0 /* HNData.swift in Sources */,
 				685FC52A1C7BDDCF00F562C0 /* AppDelegate.swift in Sources */,
+				685FC5581C7D34B500F562C0 /* HNJobTableViewController.swift in Sources */,
+				685FC54E1C7D250F00F562C0 /* HNNewTableViewController.swift in Sources */,
+				685FC53D1C7BDE2100F562C0 /* CAPSPageMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +421,7 @@
 		};
 		685FC5391C7BDDCF00F562C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4A8104BCAB3F77FA239DE9 /* Pods-HNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HNews/Info.plist;
@@ -257,6 +433,7 @@
 		};
 		685FC53A1C7BDDCF00F562C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEDBFD0AB7858E96DA86B68E /* Pods-HNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HNews/Info.plist;
@@ -285,6 +462,7 @@
 				685FC53A1C7BDDCF00F562C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
