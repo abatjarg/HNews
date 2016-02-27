@@ -12,21 +12,21 @@
 		685FC5311C7BDDCF00F562C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685FC5301C7BDDCF00F562C0 /* Assets.xcassets */; };
 		685FC5341C7BDDCF00F562C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685FC5321C7BDDCF00F562C0 /* LaunchScreen.storyboard */; };
 		685FC53D1C7BDE2100F562C0 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC53C1C7BDE2100F562C0 /* CAPSPageMenu.swift */; };
-		685FC5421C7BDE8600F562C0 /* HNMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5411C7BDE8600F562C0 /* HNMainViewController.swift */; };
 		685FC5441C7BDEDA00F562C0 /* HNTopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5431C7BDEDA00F562C0 /* HNTopTableViewController.swift */; };
 		685FC5461C7BDF2E00F562C0 /* HNTopTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685FC5451C7BDF2E00F562C0 /* HNTopTableView.xib */; };
 		685FC54A1C7BE05900F562C0 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5491C7BE05900F562C0 /* NewsTableViewCell.swift */; };
-		685FC54C1C7BE07500F562C0 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685FC54B1C7BE07500F562C0 /* NewsTableViewCell.xib */; };
 		685FC54E1C7D250F00F562C0 /* HNNewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC54D1C7D250F00F562C0 /* HNNewTableViewController.swift */; };
 		685FC5501C7D252100F562C0 /* HNNewTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685FC54F1C7D252100F562C0 /* HNNewTableView.xib */; };
 		685FC5521C7D346400F562C0 /* HNAskTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685FC5511C7D346400F562C0 /* HNAskTableView.xib */; };
 		685FC5541C7D347E00F562C0 /* HNAskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5531C7D347E00F562C0 /* HNAskTableViewController.swift */; };
 		685FC5561C7D34A700F562C0 /* HNShowTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5551C7D34A700F562C0 /* HNShowTableViewController.swift */; };
-		685FC5581C7D34B500F562C0 /* HNJobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5571C7D34B500F562C0 /* HNJobTableViewController.swift */; };
 		685FC55A1C7D34D200F562C0 /* HNShowTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685FC5591C7D34D200F562C0 /* HNShowTableView.xib */; };
 		685FC55C1C7D34EB00F562C0 /* HNJobTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685FC55B1C7D34EB00F562C0 /* HNJobTableView.xib */; };
 		685FC5601C7D49E600F562C0 /* HNSavedTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685FC55F1C7D49E600F562C0 /* HNSavedTableView.xib */; };
 		685FC5631C7E901F00F562C0 /* HNData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5621C7E901F00F562C0 /* HNData.swift */; };
+		68B612DD1C8249E100873365 /* HNJobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B612DC1C8249E100873365 /* HNJobTableViewController.swift */; };
+		68B612DF1C8249EC00873365 /* HNMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B612DE1C8249EC00873365 /* HNMainViewController.swift */; };
+		68B612E11C824A0900873365 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68B612E01C824A0900873365 /* NewsTableViewCell.xib */; };
 		885E1712F0B15486793512F8 /* Pods_HNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80776AD98A53656BE818E820 /* Pods_HNews.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,21 +38,21 @@
 		685FC5331C7BDDCF00F562C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		685FC5351C7BDDCF00F562C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		685FC53C1C7BDE2100F562C0 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
-		685FC5411C7BDE8600F562C0 /* HNMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNMainViewController.swift; path = ../HNMainViewController.swift; sourceTree = "<group>"; };
 		685FC5431C7BDEDA00F562C0 /* HNTopTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNTopTableViewController.swift; sourceTree = "<group>"; };
 		685FC5451C7BDF2E00F562C0 /* HNTopTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNTopTableView.xib; sourceTree = "<group>"; };
 		685FC5491C7BE05900F562C0 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
-		685FC54B1C7BE07500F562C0 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewsTableViewCell.xib; path = ../NewsTableViewCell.xib; sourceTree = "<group>"; };
 		685FC54D1C7D250F00F562C0 /* HNNewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNNewTableViewController.swift; sourceTree = "<group>"; };
 		685FC54F1C7D252100F562C0 /* HNNewTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNNewTableView.xib; sourceTree = "<group>"; };
 		685FC5511C7D346400F562C0 /* HNAskTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNAskTableView.xib; sourceTree = "<group>"; };
 		685FC5531C7D347E00F562C0 /* HNAskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNAskTableViewController.swift; sourceTree = "<group>"; };
 		685FC5551C7D34A700F562C0 /* HNShowTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNShowTableViewController.swift; sourceTree = "<group>"; };
-		685FC5571C7D34B500F562C0 /* HNJobTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNJobTableViewController.swift; path = ../HNJobTableViewController.swift; sourceTree = "<group>"; };
 		685FC5591C7D34D200F562C0 /* HNShowTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNShowTableView.xib; sourceTree = "<group>"; };
 		685FC55B1C7D34EB00F562C0 /* HNJobTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNJobTableView.xib; sourceTree = "<group>"; };
 		685FC55F1C7D49E600F562C0 /* HNSavedTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNSavedTableView.xib; sourceTree = "<group>"; };
 		685FC5621C7E901F00F562C0 /* HNData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNData.swift; sourceTree = "<group>"; };
+		68B612DC1C8249E100873365 /* HNJobTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNJobTableViewController.swift; sourceTree = "<group>"; };
+		68B612DE1C8249EC00873365 /* HNMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNMainViewController.swift; sourceTree = "<group>"; };
+		68B612E01C824A0900873365 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
 		80776AD98A53656BE818E820 /* Pods_HNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4A8104BCAB3F77FA239DE9 /* Pods-HNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HNews/Pods-HNews.debug.xcconfig"; sourceTree = "<group>"; };
 		BEDBFD0AB7858E96DA86B68E /* Pods-HNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-HNews/Pods-HNews.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,12 +146,12 @@
 		685FC53F1C7BDE3F00F562C0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				685FC5411C7BDE8600F562C0 /* HNMainViewController.swift */,
+				68B612DE1C8249EC00873365 /* HNMainViewController.swift */,
 				685FC5431C7BDEDA00F562C0 /* HNTopTableViewController.swift */,
 				685FC54D1C7D250F00F562C0 /* HNNewTableViewController.swift */,
 				685FC5531C7D347E00F562C0 /* HNAskTableViewController.swift */,
 				685FC5551C7D34A700F562C0 /* HNShowTableViewController.swift */,
-				685FC5571C7D34B500F562C0 /* HNJobTableViewController.swift */,
+				68B612DC1C8249E100873365 /* HNJobTableViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -160,7 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				685FC5491C7BE05900F562C0 /* NewsTableViewCell.swift */,
-				685FC54B1C7BE07500F562C0 /* NewsTableViewCell.xib */,
+				68B612E01C824A0900873365 /* NewsTableViewCell.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -239,11 +239,11 @@
 				685FC5601C7D49E600F562C0 /* HNSavedTableView.xib in Resources */,
 				685FC5341C7BDDCF00F562C0 /* LaunchScreen.storyboard in Resources */,
 				685FC5311C7BDDCF00F562C0 /* Assets.xcassets in Resources */,
+				68B612E11C824A0900873365 /* NewsTableViewCell.xib in Resources */,
 				685FC52F1C7BDDCF00F562C0 /* Main.storyboard in Resources */,
 				685FC5461C7BDF2E00F562C0 /* HNTopTableView.xib in Resources */,
 				685FC5521C7D346400F562C0 /* HNAskTableView.xib in Resources */,
 				685FC55A1C7D34D200F562C0 /* HNShowTableView.xib in Resources */,
-				685FC54C1C7BE07500F562C0 /* NewsTableViewCell.xib in Resources */,
 				685FC55C1C7D34EB00F562C0 /* HNJobTableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,14 +304,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				685FC5561C7D34A700F562C0 /* HNShowTableViewController.swift in Sources */,
-				685FC5421C7BDE8600F562C0 /* HNMainViewController.swift in Sources */,
+				68B612DD1C8249E100873365 /* HNJobTableViewController.swift in Sources */,
 				685FC5541C7D347E00F562C0 /* HNAskTableViewController.swift in Sources */,
 				685FC5441C7BDEDA00F562C0 /* HNTopTableViewController.swift in Sources */,
 				685FC54A1C7BE05900F562C0 /* NewsTableViewCell.swift in Sources */,
 				685FC5631C7E901F00F562C0 /* HNData.swift in Sources */,
 				685FC52A1C7BDDCF00F562C0 /* AppDelegate.swift in Sources */,
-				685FC5581C7D34B500F562C0 /* HNJobTableViewController.swift in Sources */,
 				685FC54E1C7D250F00F562C0 /* HNNewTableViewController.swift in Sources */,
+				68B612DF1C8249EC00873365 /* HNMainViewController.swift in Sources */,
 				685FC53D1C7BDE2100F562C0 /* CAPSPageMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
