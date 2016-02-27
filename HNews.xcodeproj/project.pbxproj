@@ -27,6 +27,8 @@
 		68B612DD1C8249E100873365 /* HNJobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B612DC1C8249E100873365 /* HNJobTableViewController.swift */; };
 		68B612DF1C8249EC00873365 /* HNMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B612DE1C8249EC00873365 /* HNMainViewController.swift */; };
 		68B612E11C824A0900873365 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68B612E01C824A0900873365 /* NewsTableViewCell.xib */; };
+		68B612E51C824C5C00873365 /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B612E31C824C5C00873365 /* main.png */; };
+		68B612E61C824C5C00873365 /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B612E41C824C5C00873365 /* safari.png */; };
 		885E1712F0B15486793512F8 /* Pods_HNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80776AD98A53656BE818E820 /* Pods_HNews.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		68B612DC1C8249E100873365 /* HNJobTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNJobTableViewController.swift; sourceTree = "<group>"; };
 		68B612DE1C8249EC00873365 /* HNMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNMainViewController.swift; sourceTree = "<group>"; };
 		68B612E01C824A0900873365 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		68B612E31C824C5C00873365 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		68B612E41C824C5C00873365 /* safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safari.png; sourceTree = "<group>"; };
 		80776AD98A53656BE818E820 /* Pods_HNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4A8104BCAB3F77FA239DE9 /* Pods-HNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HNews/Pods-HNews.debug.xcconfig"; sourceTree = "<group>"; };
 		BEDBFD0AB7858E96DA86B68E /* Pods-HNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-HNews/Pods-HNews.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 		685FC5281C7BDDCF00F562C0 /* HNews */ = {
 			isa = PBXGroup;
 			children = (
+				68B612E21C824C3F00873365 /* Screenshots */,
 				685FC5611C7E8FE100F562C0 /* Model */,
 				685FC5401C7BDE4900F562C0 /* Cells */,
 				685FC53F1C7BDE3F00F562C0 /* ViewControllers */,
@@ -171,6 +176,15 @@
 				685FC5621C7E901F00F562C0 /* HNData.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		68B612E21C824C3F00873365 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				68B612E31C824C5C00873365 /* main.png */,
+				68B612E41C824C5C00873365 /* safari.png */,
+			);
+			name = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +258,9 @@
 				685FC5461C7BDF2E00F562C0 /* HNTopTableView.xib in Resources */,
 				685FC5521C7D346400F562C0 /* HNAskTableView.xib in Resources */,
 				685FC55A1C7D34D200F562C0 /* HNShowTableView.xib in Resources */,
+				68B612E51C824C5C00873365 /* main.png in Resources */,
 				685FC55C1C7D34EB00F562C0 /* HNJobTableView.xib in Resources */,
+				68B612E61C824C5C00873365 /* safari.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
