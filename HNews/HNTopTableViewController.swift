@@ -65,9 +65,13 @@ class HNTopTableViewController: UITableViewController {
     }
     
     func reloadData(){
-        someData.getData("topstories", storyLimit: 10) { data in
-            self.tableData = data
-            self.tableView.reloadData()
+        someData.getData("topstories", storyLimit: 10) { data, error in
+            if (data != nil) {
+                self.tableData = data
+                self.tableView.reloadData()
+            } else {
+                print("Error: \(error)")
+            }
         }
         
         if (self.refreshControl != nil) {

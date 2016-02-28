@@ -26,7 +26,7 @@ class HNData {
         let score : Int?
     }
     
-    func queryData(storyType: String, storyLimit: Int, completionHandler: ([story]) -> ()) -> () {
+    func queryData(storyType: String, storyLimit: Int, completionHandler: ([story]?, NSError?) -> ()) -> () {
         
         let query = firebase.childByAppendingPath(storyType).queryLimitedToFirst(10)
         
@@ -36,20 +36,26 @@ class HNData {
             for storyId in storyIds {
                 let query = self.firebase.childByAppendingPath("item").childByAppendingPath(String(storyId))
                 query.observeSingleEventOfType(.Value, withBlock: { (snapshot) in
-                    if snapshot.value != nil {
-                        let queriedStory = story(title: snapshot.value["title"] as? String, url: snapshot.value["url"] as? String, by: snapshot.value["by"] as? String, score: snapshot.value["score"] as? Int)
-                        items.append(queriedStory)
-                        if items.count == 10 {
-                            self.stories = items
-                            completionHandler(self.stories)
-                        }
+                    let queriedStory = story(title: snapshot.value["title"] as? String, url: snapshot.value["url"] as? String, by: snapshot.value["by"] as? String, score: snapshot.value["score"] as? Int)
+                    items.append(queriedStory)
+                    if items.count == 10 {
+                        self.stories = items
+                        completionHandler(self.stories, nil)
                     }
-                })
+                }, withCancelBlock: { error in
+                    print("\(error.description)")
+                    completionHandler(nil, error)
+                    
+            })
             }
+            }, withCancelBlock: { error in
+                print("\(error.description)")
+                completionHandler(nil, error)
+                
         })
     }
     
-    func getData(storyType: String, storyLimit: Int, completionHandler: ([story]) -> ()) -> () {
+    func getData(storyType: String, storyLimit: Int, completionHandler: ([story]?, NSError?) -> ()) -> () {
         queryData(storyType, storyLimit: storyLimit, completionHandler: completionHandler)
     }
 

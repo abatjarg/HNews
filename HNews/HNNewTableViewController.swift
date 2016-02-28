@@ -62,7 +62,7 @@ class HNNewTableViewController: UITableViewController {
     }
     
     func reloadData(){
-        someData.getData("newstories", storyLimit: 10) { data in
+        someData.getData("newstories", storyLimit: 10) { data, error in
             self.tableData = data
             self.tableView.reloadData()
         }
