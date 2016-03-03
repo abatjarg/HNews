@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6803ED531C87CD1100CAAB18 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6803ED521C87CD1100CAAB18 /* CommentTableViewCell.xib */; };
+		6803ED551C87D50B00CAAB18 /* HNDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6803ED541C87D50B00CAAB18 /* HNDetailTableViewController.swift */; };
+		6803ED571C87D53300CAAB18 /* HNDetailTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6803ED561C87D53300CAAB18 /* HNDetailTableView.xib */; };
 		685FC52A1C7BDDCF00F562C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685FC5291C7BDDCF00F562C0 /* AppDelegate.swift */; };
 		685FC52F1C7BDDCF00F562C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685FC52D1C7BDDCF00F562C0 /* Main.storyboard */; };
 		685FC5311C7BDDCF00F562C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685FC5301C7BDDCF00F562C0 /* Assets.xcassets */; };
@@ -33,6 +36,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6803ED521C87CD1100CAAB18 /* CommentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
+		6803ED541C87D50B00CAAB18 /* HNDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNDetailTableViewController.swift; sourceTree = "<group>"; };
+		6803ED561C87D53300CAAB18 /* HNDetailTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNDetailTableView.xib; sourceTree = "<group>"; };
 		685FC5261C7BDDCF00F562C0 /* HNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		685FC5291C7BDDCF00F562C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		685FC52E1C7BDDCF00F562C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -144,6 +150,7 @@
 				685FC5591C7D34D200F562C0 /* HNShowTableView.xib */,
 				685FC55B1C7D34EB00F562C0 /* HNJobTableView.xib */,
 				685FC55F1C7D49E600F562C0 /* HNSavedTableView.xib */,
+				6803ED561C87D53300CAAB18 /* HNDetailTableView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -157,6 +164,7 @@
 				685FC5531C7D347E00F562C0 /* HNAskTableViewController.swift */,
 				685FC5551C7D34A700F562C0 /* HNShowTableViewController.swift */,
 				68B612DC1C8249E100873365 /* HNJobTableViewController.swift */,
+				6803ED541C87D50B00CAAB18 /* HNDetailTableViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -166,6 +174,7 @@
 			children = (
 				685FC5491C7BE05900F562C0 /* NewsTableViewCell.swift */,
 				68B612E01C824A0900873365 /* NewsTableViewCell.xib */,
+				6803ED521C87CD1100CAAB18 /* CommentTableViewCell.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -249,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6803ED571C87D53300CAAB18 /* HNDetailTableView.xib in Resources */,
 				685FC5501C7D252100F562C0 /* HNNewTableView.xib in Resources */,
 				685FC5601C7D49E600F562C0 /* HNSavedTableView.xib in Resources */,
 				685FC5341C7BDDCF00F562C0 /* LaunchScreen.storyboard in Resources */,
@@ -259,6 +269,7 @@
 				685FC5521C7D346400F562C0 /* HNAskTableView.xib in Resources */,
 				685FC55A1C7D34D200F562C0 /* HNShowTableView.xib in Resources */,
 				68B612E51C824C5C00873365 /* main.png in Resources */,
+				6803ED531C87CD1100CAAB18 /* CommentTableViewCell.xib in Resources */,
 				685FC55C1C7D34EB00F562C0 /* HNJobTableView.xib in Resources */,
 				68B612E61C824C5C00873365 /* safari.png in Resources */,
 			);
@@ -327,6 +338,7 @@
 				685FC5631C7E901F00F562C0 /* HNData.swift in Sources */,
 				685FC52A1C7BDDCF00F562C0 /* AppDelegate.swift in Sources */,
 				685FC54E1C7D250F00F562C0 /* HNNewTableViewController.swift in Sources */,
+				6803ED551C87D50B00CAAB18 /* HNDetailTableViewController.swift in Sources */,
 				68B612DF1C8249EC00873365 /* HNMainViewController.swift in Sources */,
 				685FC53D1C7BDE2100F562C0 /* CAPSPageMenu.swift in Sources */,
 			);
