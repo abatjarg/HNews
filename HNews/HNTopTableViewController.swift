@@ -91,13 +91,13 @@ class HNTopTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-//        if let url = NSURL(string: self.tableData[indexPath.row].url!) {
-//            let vc = SFSafariViewController(URL: url, entersReaderIfAvailable: true)
-//            presentViewController(vc, animated: true, completion: nil)
-//        }
-        let dVC : HNDetailTableViewController = HNDetailTableViewController(nibName: "HNDetailTableView", bundle: nil)
-        let navigationController = UINavigationController(rootViewController: dVC)
-        self.presentViewController(navigationController, animated: true, completion: nil)
+        if let url = NSURL(string: self.tableData[indexPath.row].url!) {
+            let vc = SFSafariViewController(URL: url, entersReaderIfAvailable: true)
+            presentViewController(vc, animated: true, completion: nil)
+        }
+//        let dVC : HNDetailTableViewController = HNDetailTableViewController(nibName: "HNDetailTableView", bundle: nil)
+//        let navigationController = UINavigationController(rootViewController: dVC)
+//        self.presentViewController(navigationController, animated: true, completion: nil)
     }
 
 }
